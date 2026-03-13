@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Runze Wang"
 author_profile: true
 redirect_from:
   - /about/
@@ -62,6 +62,6 @@ Beyond academic research, I have also worked on robotics systems and real-world 
 
 ## Contact
 
-Email: **24110980021@m.fudan.edu.cn**
+Email: **xxxxxx**
 
 You can also find my publications, projects, and CV on this website.
