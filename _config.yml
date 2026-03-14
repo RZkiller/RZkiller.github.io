@@ -9,9 +9,9 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Runze Wang's HomePage"
+title                    : "Runze Wang"
 title_separator          : "-"
-name                     : &name "Runze Wang | 王润泽"
+name                     : &name "Runze Wang"
 description              : &description "Personal homepage of Runze Wang, M.S. student at Fudan University."   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://rzkiller.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
@@ -23,7 +23,7 @@ repository               : "RZkiller/RZkiller.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   avatar           : "profile.png"
-  name             : "Runze Wang | 王润泽"
+  name             : "Runze Wang"
   pronouns         :
   bio              : "M.S. student at SDS, Fudan University"
   location         : "Shanghai, China"
