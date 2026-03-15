@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Runze Wang"
+title                    : "Homepage"
 title_separator          : "-"
 name                     : &name "Runze Wang"
 description              : &description "Personal homepage of Runze Wang, M.S. student at Fudan University."   # Update this with a general description of your site, this is the default if not overridden by a page
@@ -23,7 +23,7 @@ repository               : "RZkiller/RZkiller.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   avatar           : "profile.png"
-  name             : "Runze Wang"
+  name             : "Runze Wang | 王润泽"
   pronouns         :
   bio              : "M.S. student at SDS, Fudan University"
   location         : "Shanghai, China"
@@ -34,7 +34,7 @@ author:
   # Academic websites
   academia         :
   arxiv            :
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?hl=zh-CN&user=-Qy7uCUAAAAJ"
   inspire-hep      :
   impactstory      :
   orcid            :

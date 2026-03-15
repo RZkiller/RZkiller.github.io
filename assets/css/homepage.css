@@ -1,0 +1,232 @@
+/*
+ * homepage.css
+ * Custom styles for the Publications / Projects / Experience sections
+ * on the about.md homepage. Scoped under .page__content to avoid
+ * collisions with the Minimal Mistakes theme.
+ */
+
+/* ------------------------------------------------------------------ */
+/* Intro paragraph  (.hp-intro)                                         */
+/* ------------------------------------------------------------------ */
+
+.page__content .hp-intro strong {
+  color: #003373;
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------------ */
+/* Section headings                                                     */
+/* ------------------------------------------------------------------ */
+
+.page__content .hp-section-title {
+  font-size: 1.4em;
+  color: #003373;
+  border-bottom: 2px solid #e8e8e8;
+  padding-bottom: 6px;
+  margin-bottom: 24px;
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+/* ------------------------------------------------------------------ */
+/* Research / Publication card  (.research-proj)                       */
+/* ------------------------------------------------------------------ */
+
+.page__content .research-proj {
+  display: table;
+  width: 100%;
+  margin-bottom: 28px;
+  overflow: hidden;
+}
+
+/* Thumbnail column */
+.page__content .research-thumb {
+  display: block;
+  float: left;
+  width: 180px;
+  margin-right: 24px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+  text-decoration: none;
+  border: none !important;
+  flex-shrink: 0;
+}
+
+.page__content .research-thumb:hover {
+  border: none !important;
+}
+
+.page__content .research-thumb img {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+}
+
+.page__content .research-thumb video {
+  width: 100%;
+  border-radius: 6px;
+  display: block;
+}
+
+/* Text column */
+.page__content .research-body {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.page__content .research-proj-title {
+  display: block;
+  color: #003373;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1.5;
+  margin-bottom: 6px;
+  text-decoration: none;
+  border: none !important;
+}
+
+.page__content .research-proj-title:hover {
+  border-bottom: 1px solid #003373 !important;
+  color: #003373;
+}
+
+.page__content .research-proj p {
+  font-size: 0.875em;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 4px;
+}
+
+/* Highlight own name */
+.page__content .research-proj p strong {
+  color: #c8941a;
+  font-weight: 700;
+}
+
+/* Venue badge (e.g. "ICCV 2025 Highlight") */
+.page__content .research-proj p .venue-badge {
+  color: #d94f4f;
+  font-weight: 700;
+}
+
+/* Links row: Webpage · Paper · Code */
+.page__content .research-proj .proj-links {
+  margin-top: 6px;
+  font-size: 0.85em;
+}
+
+.page__content .research-proj .proj-links a {
+  color: #4a85c8;
+  text-decoration: none;
+  margin-right: 6px;
+}
+
+.page__content .research-proj .proj-links a:hover {
+  text-decoration: underline;
+}
+
+/* clearfix after each card */
+.page__content .research-proj::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* ------------------------------------------------------------------ */
+/* Experience section  (.experience-item)                              */
+/* ------------------------------------------------------------------ */
+
+.page__content .experience-list {
+  margin-top: 8px;
+}
+
+.page__content .experience-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.page__content .experience-item:last-child {
+  border-bottom: none;
+}
+
+.page__content .institute-logo {
+  max-width: 90px;
+  width: 90px;
+  height: auto;
+  margin-right: 28px;
+  border-radius: 6px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.page__content .experience-content {
+  flex: 1;
+}
+
+.page__content .experience-content .institute-title {
+  display: inline;
+  font-size: 1em;
+  font-weight: 600;
+  color: #003373;
+  text-decoration: none;
+  border: none !important;
+}
+
+.page__content .experience-content .institute-title:hover {
+  border-bottom: 1px solid #003373 !important;
+}
+
+.page__content .experience-content .exp-meta {
+  font-size: 0.875em;
+  color: #777;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  font-style: italic;
+}
+
+.page__content .experience-content .exp-meta span {
+  font-style: normal;
+  color: #999;
+}
+
+.page__content .experience-content .exp-detail {
+  font-size: 0.875em;
+  color: #555;
+  line-height: 1.5;
+  margin-top: 2px;
+}
+
+/* ------------------------------------------------------------------ */
+/* Responsive: stack thumbnail on small screens                        */
+/* ------------------------------------------------------------------ */
+
+@media (max-width: 600px) {
+  .page__content .research-thumb {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+
+  .page__content .research-body {
+    display: block;
+  }
+
+  .page__content .research-proj {
+    display: block;
+  }
+
+  .page__content .experience-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .page__content .institute-logo {
+    margin-bottom: 12px;
+    margin-right: 0;
+  }
+}

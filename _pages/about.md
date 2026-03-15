@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Runze Wang"
+title: ""
 author_profile: true
 redirect_from:
   - /about/
@@ -9,73 +9,143 @@ redirect_from:
 
 <div id="about"></div>
 
-Hi! I’m **Runze Wang (王润泽)**, an M.S. student at the **School of Data Science, Fudan University**.
+<div class="hp-intro" markdown="1">
 
-My research interests lie broadly in **statistical machine learning**, **computer vision**, and **embodied intelligence / robotics**. I am particularly interested in building perception and learning systems that can generalize across viewpoints, scenes, and real-world robotic settings.
+I am currently a second-year M.S. student at the **[School of Data Science, Fudan University](https://sds.fudan.edu.cn/)**. Previously, I received my bachelor’s degree in **Artificial Intelligence** from **Xidian University**.
 
-Before joining Fudan University, I received my B.Eng. in **Artificial Intelligence** from **Xidian University**, where I ranked **1/35** in my program.
+My research interests span **embodied intelligence** and **egocentric vision**, including ego-exo cross-view learning, robotic manipulation, and RL-based dexterous grasping. Currently, I focus on enhancing the capabilities of **vision-language-action (VLA)** models through a planning-then-execution paradigm.
+
+</div>
 
 <div id="publications"></div>
 
 ## Publications
 
-### Selected Papers
+<!-- ObjectRelator -->
+<div class="research-proj">
+  <a href="#" class="research-thumb" style="width: 240px;">
+    <img src="/images/paper/objectrelator.png" alt="ObjectRelator thumbnail" />
+  </a>
+  <div class="research-body">
+    <a href="#" class="research-proj-title">
+      ObjectRelator: Enabling Cross-View Object Relation Understanding Across Ego-Centric and Exo-Centric Perspectives
+    </a>
+    <p>Yuqian Fu, <strong>Runze Wang</strong>, Bin Ren, Guolei Sun, Biao Gong, Yanwei Fu, Danda Pani Paudel, Xuanjing Huang, Luc Van Gool</p>
+    <p>ICCV 2025&nbsp;&nbsp;<span class="venue-badge">(Highlight)</span></p>
+    <p class="proj-links">
+      <a href="https://objectrelator.ai/">Webpage</a> &bull;
+      <a href="https://arxiv.org/abs/2411.19083">Paper</a> &bull;
+      <a href="https://github.com/lovelyqian/ObjectRelator">Code</a>
+    </p>
+  </div>
+</div>
 
-- **ObjectRelator**  
-  *ICCV 2025 Highlight Paper*  
-  A multimodal framework for cross-view object relation understanding.
-
-- **V²-SAM**  
-  *CVPR 2026 Accepted Paper, First Author*  
-  Extends SAM2 with cross-view matching capability through complementary geometric and appearance-aware prompting.
-
-### Research Highlights
-
-- Focused on **cross-view visual understanding** and **embodied perception**
-- Worked on robust perception under large viewpoint changes and complex backgrounds
-- Explored visual correspondence, relation reasoning, and generalizable scene understanding across egocentric and exocentric views
+<!-- V²-SAM -->
+<div class="research-proj">
+  <a href="#" class="research-thumb" style="width: 240px;">
+    <img src="/images/paper/v2sam.png" alt="V²-SAM thumbnail" />
+  </a>
+  <div class="research-body">
+    <a href="#" class="research-proj-title">
+      V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence
+    </a>
+    <p><strong>Runze Wang*</strong>, Jiancheng Pan*, Tianwen Qian, Mohammad Mahdi, Yanwei Fu, Xiangyang Xue, Xiaomeng Huang, Luc Van Gool, Danda Pani Paudel, Yuqian Fu</p>
+    <p>CVPR 2026</p>
+    <p class="proj-links">
+      <a href="#">Webpage</a> &bull;
+      <a href="#">Paper</a> &bull;
+      <a href="#">Code</a>
+    </p>
+  </div>
+</div>
 
 
 <div id="projects"></div>
 
 ## Projects
 
-### Research Projects
+<!-- CVPR Ego-Exo4D Challenge -->
+<div class="research-proj">
+  <a href="#" class="research-thumb" style="width: 240px;">
+    <img src="/images/project/ego-exo.gif" alt="CVPR Ego-Exo4D Challenge" />
+  </a>
+  <div class="research-body">
+    <a href="#" class="research-proj-title">CVPR Ego-Exo4D Challenge</a>
+    <p>Achieved <strong style="color:#c8941a;">2nd Place</strong> in the CVPR Ego-Exo4D Challenge. Focused on cross-view object correspondence across egocentric and exocentric videos, leveraging multimodal fusion and cross-view alignment to bridge the ego-exo domain gap.</p>
+  </div>
+</div>
 
-- **Cross-view Object Relation Understanding**  
-  Developed multimodal methods for object relation reasoning across viewpoints, improving robustness in challenging real-world scenes.
+<!-- Mobile Manipulation for Coffee Delivery -->
+<div class="research-proj">
+  <a href="#" class="research-thumb" style="width: 240px;">
+    <!-- Replace with video when available: <video playsinline muted autoplay loop><source src="/images/project/coffee_robot.mp4" type="video/mp4"></video> -->
+    <img src="/images/project/coffee.gif" alt="Mobile Manipulation for Coffee Delivery" />
+  </a>
+  <div class="research-body">
+    <a href="#" class="research-proj-title">Mobile Manipulation for Coffee Delivery</a>
+    <p>Built and deployed a robotic system integrating mapping, navigation, extrinsic calibration, communication, and 6D pose estimation to <strong style="color:#c8941a;">autonomously deliver coffee cups</strong> in an unstructured environment.</p>
+  </div>
+</div>
 
-- **Cross-view Matching with SAM2**  
-  Built a cross-view extension of SAM2 with enhanced correspondence ability for matching objects across different camera perspectives.
-
-### Robotics and System Projects
-
-- **Autonomous Coffee Delivery Mobile Manipulation Robot**  
-  Built and deployed a robotic system integrating mapping, navigation, calibration, communication, and 6D pose estimation.
-
-- **Industrial Welding Error Compensation System**  
-  Developed an optical motion capture-based robotic arm error compensation system for automatic welding scenarios.
-
-- **Robotic Grasping and Sim-to-Real Transfer**  
-  Worked on robotic grasping, sim-to-real transfer, and policy learning with IL+RL-based methods.
-
-### Competition
-
-- **CVPR Ego-Exo4D Challenge**  
-  Achieved **2nd place**.
+<!-- Automatic Welding System -->
+<div class="research-proj">
+  <a href="#" class="research-thumb" style="width: 240px;">
+    <img src="/images/project/weld.gif" alt="Automatic Welding System" />
+  </a>
+  <div class="research-body">
+    <a href="#" class="research-proj-title">Automatic Welding System</a>
+    <p>Led the development and deployment of core algorithms for <strong style="color:#c8941a;">automatic welding</strong>, including imaging pose generation, workpiece recognition, size estimation, 3D weld seam localization, and welding pose planning for <strong style="color:#c8941a;">different workpiece types</strong>.</p>
+  </div>
+</div>
 
 
 <div id="experience"></div>
 
 ## Experience
 
-**Fudan University**  
-M.S. in Statistics (Statistical Machine Learning)  
-2024 – Present
+<div class="experience-list">
 
-**Xidian University**  
-B.Eng. in Artificial Intelligence (Turing Experimental Class)  
-2020 – 2024
+  <!-- Fudan University -->
+  <div class="experience-item">
+    <img src="/images/badge/fudan.png" alt="Fudan University" class="institute-logo" />
+    <div class="experience-content">
+      <span class="institute-title">Fudan University</span>
+      <p class="exp-meta">2024.09 – Present &nbsp;&bull;&nbsp; <span>M.S. student</span></p>
+      <p class="exp-detail">School of Data Science &nbsp;|&nbsp; M.S. in Statistics</p>
+    </div>
+  </div>
+
+  <!-- Ant Group -->
+  <div class="experience-item">
+    <img src="/images/badge/antgroup.png" alt="Ant Group" class="institute-logo" />
+    <div class="experience-content">
+      <span class="institute-title">Ant Group</span>
+      <p class="exp-meta">2025.12 – 2026.03 &nbsp;&bull;&nbsp; <span>Research Intern</span></p>
+      <p class="exp-detail">Research Topic: Dexterous Robotic Grasping</p>
+    </div>
+  </div>
+
+   <!-- YOFO Robot -->
+  <div class="experience-item">
+    <img src="/images/badge/yofo.png" alt="YOFO Robot" class="institute-logo" />
+    <div class="experience-content">
+      <span class="institute-title">YOFO Robot</span>
+      <p class="exp-meta">2025.03 – 2025.07 &nbsp;&bull;&nbsp; <span>Research Intern</span></p>
+      <p class="exp-detail">Research Topic: AI Welding System</p>
+    </div>
+  </div>
+
+  <!-- Xidian University -->
+  <div class="experience-item">
+    <img src="/images/badge/xidian.png" alt="Xidian University" class="institute-logo" />
+    <div class="experience-content">
+      <span class="institute-title">Xidian University</span>
+      <p class="exp-meta">2020.09 – 2024.06 &nbsp;&bull;&nbsp; <span>Undergraduate student</span></p>
+      <p class="exp-detail">B.Eng. in Artificial Intelligence (Turing Experimental Class) &nbsp;|&nbsp; GPA Rank: <strong style="color:#555;">1 / 35</strong></p>
+    </div>
+  </div>
+
+</div>
 
 
 
@@ -83,12 +153,12 @@ B.Eng. in Artificial Intelligence (Turing Experimental Class)
 
 ## Tech Sharing
 
-- **ICCV 2025 Highlight Paper**
-- **CVPR 2026 Accepted Paper (First Author)**
-- **CVPR Ego-Exo4D Challenge, 2nd Place**
-- **COMAP Mathematical Contest in Modeling, Meritorious Winner**
-- **First Prize**, National College Students Mathematics Competition (Provincial)
-- **Second Prize**, Shaanxi Higher Mathematics Competition
+I regularly share my learning notes and research insights on Xiaohongshu, especially on VLA and embodied AI. [Stay tuned!](https://xhslink.com/m/bX7XppoI0j)
+
+<a href="https://xhslink.com/m/bX7XppoI0j" target="_blank" rel="noopener" style="display:block; margin-top:16px; text-decoration:none; border:none;">
+  <img src="/images/redbook.png" alt="Xiaohongshu tech sharing preview"
+       style="width:100%; border-radius:10px; box-shadow:0 4px 18px rgba(0,0,0,0.12); display:block;" />
+</a>
 
 <div id="cv"></div>
 
