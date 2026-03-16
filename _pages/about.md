@@ -13,7 +13,9 @@ redirect_from:
 
 I am currently a second-year M.S. student at the **[School of Data Science, Fudan University](https://sds.fudan.edu.cn/)**. Previously, I received my bachelor’s degree in **Artificial Intelligence** from **Xidian University**.
 
-My research interests span **Embodied AI** and **Egocentric Vision**, including ego-exo cross-view learning, robotic manipulation, and Reinforcement Learning-based dexterous grasping. Currently, I focus on enhancing the capabilities of **Vision-Language-Action (VLA)** models through a planning-then-execution paradigm.
+My research interests span **Embodied AI** and **Egocentric Vision**, including ego-exo cross-view learning, robotic manipulation, and Reinforcement Learning-based dexterous grasping. 
+
+Currently, I focus on enhancing the capabilities of **Vision-Language-Action (VLA)** models through a planning-then-execution paradigm.
 
 </div>
 
