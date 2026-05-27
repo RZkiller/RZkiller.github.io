@@ -52,7 +52,26 @@ Currently, I focus on enhancing the capabilities of **Vision-Language-Action (VL
       V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence
     </a>
     <p><strong>Runze Wang*</strong>, Jiancheng Pan*, Tianwen Qian, Mohammad Mahdi, Yanwei Fu, Xiangyang Xue, Xiaomeng Huang, Luc Van Gool, Danda Pani Paudel, Yuqian Fu</p>
-    <p>CVPR 2026</p>
+    <p>CVPR 2026&nbsp;&nbsp;<span class="venue-badge">(Highlight)</span></p>
+    <p class="proj-links">
+      <a href="#">Webpage</a> &bull;
+      <a href="#">Paper</a> &bull;
+      <a href="#">Code</a>
+    </p>
+  </div>
+</div>
+
+<!-- Afford-VLA -->
+<div class="research-proj">
+  <a href="#" class="research-thumb" style="width: 240px;">
+    <img src="/images/paper/affordvla.png" alt="Afford-VLA thumbnail" />
+  </a>
+  <div class="research-body">
+    <a href="#" class="research-proj-title">
+      Afford-VLA: Action-Aligned Visual Planning via Internalized Affordance
+    </a>
+    <p><strong>Runze Wang*</strong>, Yuqian Fu*, Yu Li, Tao Lin, Tianwen Qian, Mohamed Elhoseiny, Bo Zhao, Yanwei Fu, Yu-Gang Jiang, Xiangyang Xue</p>
+    <p>Under Review</p>
     <p class="proj-links">
       <a href="#">Webpage</a> &bull;
       <a href="#">Paper</a> &bull;
