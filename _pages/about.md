@@ -136,25 +136,6 @@ Currently, I focus on enhancing the capabilities of **Vision-Language-Action (VL
     </div>
   </div>
 
-  <!-- Ant Group -->
-  <div class="experience-item">
-    <img src="/images/badge/antgroup.png" alt="Ant Group" class="institute-logo" />
-    <div class="experience-content">
-      <span class="institute-title">Ant Group</span>
-      <p class="exp-meta">2025.12 – 2026.03 &nbsp;&bull;&nbsp; <span>Research Intern</span></p>
-      <p class="exp-detail">Research Topic: Dexterous Robotic Grasping</p>
-    </div>
-  </div>
-
-   <!-- YOFO Robot -->
-  <div class="experience-item">
-    <img src="/images/badge/yofo.png" alt="YOFO Robot" class="institute-logo" />
-    <div class="experience-content">
-      <span class="institute-title">YOFO Robot</span>
-      <p class="exp-meta">2025.03 – 2025.07 &nbsp;&bull;&nbsp; <span>Research Intern</span></p>
-      <p class="exp-detail">Research Topic: AI Welding System</p>
-    </div>
-  </div>
 
   <!-- Xidian University -->
   <div class="experience-item">
