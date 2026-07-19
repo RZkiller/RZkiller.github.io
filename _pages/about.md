@@ -51,7 +51,7 @@ Currently, I focus on enhancing the capabilities of **Vision-Language-Action (VL
     <a href="#" class="research-proj-title">
       V²-SAM: Marrying SAM2 with Multi-Prompt Experts for Cross-View Object Correspondence
     </a>
-    <p><strong>Runze Wang*</strong>, Jiancheng Pan*, Tianwen Qian, Mohammad Mahdi, Yanwei Fu, Xiangyang Xue, Xiaomeng Huang, Luc Van Gool, Danda Pani Paudel, Yuqian Fu</p>
+    Jiancheng Pan*, <p><strong>Runze Wang*</strong>, Tianwen Qian, Mohammad Mahdi, Yanwei Fu, Xiangyang Xue, Xiaomeng Huang, Luc Van Gool, Danda Pani Paudel, Yuqian Fu</p>
     <p>CVPR 2026&nbsp;&nbsp;<span class="venue-badge">(Highlight)</span></p>
     <p class="proj-links">
       <a href="#">Webpage</a> &bull;
