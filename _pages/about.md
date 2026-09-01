@@ -15,7 +15,7 @@ I am currently a second-year M.S. student at the **[School of Data Science, Fuda
 
 My research interests span **Embodied AI** and **Egocentric Vision**, including ego-exo cross-view learning, robotic manipulation, and Reinforcement Learning-based dexterous grasping. 
 
-Currently, I focus on enhancing the capabilities of **Vision-Language-Action (VLA)** models through a planning-then-execution paradigm.
+Recently, I focus on research in **Vision-Language-Action (VLA)** and **World Model** directions.
 
 </div>
 
