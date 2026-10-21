@@ -11,7 +11,7 @@ redirect_from:
 
 <div class="hp-intro" markdown="1">
 
-I am currently a second-year M.S. student at the **[School of Data Science, Fudan University](https://sds.fudan.edu.cn/)**. Previously, I received my bachelor’s degree in **Artificial Intelligence** from **Xidian University**.
+I am currently a third-year M.S. student at the **[School of Data Science, Fudan University](https://sds.fudan.edu.cn/)**. Previously, I received my bachelor’s degree in **Artificial Intelligence** from **Xidian University**.
 
 My research interests span **Embodied AI** and **Egocentric Vision**, including ego-exo cross-view learning, robotic manipulation, and Reinforcement Learning-based dexterous grasping. 
 
