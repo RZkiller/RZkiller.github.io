@@ -17,6 +17,8 @@ My research interests span **Embodied AI** and **Egocentric Vision**, including 
 
 Recently, I focus on research in **Vision-Language-Action (VLA)** and **World Model** directions.
 
+I regularly share my learning notes and research insights on rednote, especially on VLA and embodied AI. [Stay tuned!](https://xhslink.com/m/bX7XppoI0j)
+
 </div>
 
 <div id="publications"></div>
